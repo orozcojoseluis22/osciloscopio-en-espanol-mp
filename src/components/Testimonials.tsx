@@ -22,9 +22,9 @@ const Testimonials = () => {
               </p>
               <div className="flex items-center">
                 <img
-                  src="/public/lovable-uploads/64ba8381-9125-4050-b319-5aff96b62610.png"
-                  alt="Testimonio de estudiante"
-                  className="h-14 w-14 object-cover rounded-full mr-4"
+                  src="/public/lovable-uploads/d8377329-af1a-44ca-b35d-0e5b8a663036.png"
+                  alt="Testimonio de estudiante con mensaje"
+                  className="h-auto w-48 object-contain mr-4"
                 />
                 <div>
                   <h4 className="font-semibold">Juan Carlos</h4>
