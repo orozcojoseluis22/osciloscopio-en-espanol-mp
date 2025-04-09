@@ -1,6 +1,8 @@
+
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Quote } from "lucide-react";
+
 const Testimonials = () => {
   return <div className="py-16 bg-white">
       <div className="container mx-auto px-4">
@@ -31,8 +33,8 @@ const Testimonials = () => {
                 <Quote className="h-8 w-8 text-blue-500 opacity-50" />
               </div>
               <p className="mb-4 italic">"Como en todo trabajo diariamente se aprenden muchas cosas hay mucho que aprender mucho que estudiar si uno tiene el deseo y el empeño lo que aprendes lo pones en práctica allí se ve el progreso y la satisfacción personal. Gracias profesor por compartir su conocimiento."</p>
-              <div className="flex items-center">
-                <img src="/public/lovable-uploads/dbbf7e2f-11bf-439a-99d7-da9cb4899377.png" alt="Testimonio de estudiante" className="h-14 w-14 object-cover rounded-full mr-4" />
+              <div className="flex flex-col">
+                <img src="/public/lovable-uploads/c6470057-7ef9-4691-99d2-08a78ab02c32.png" alt="Capturas de WhatsApp con testimonios" className="h-auto w-full object-contain mb-4" />
                 <div>
                   <h4 className="font-semibold">Víctor</h4>
                   <p className="text-sm text-gray-600">Estudiante del curso</p>
