@@ -1,6 +1,8 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { PhoneCall } from "lucide-react";
+
 const Header = () => {
   return <header className="bg-[#003366] text-white py-4 shadow-md">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
@@ -12,11 +14,15 @@ const Header = () => {
             <PhoneCall className="h-4 w-4 mr-2" />
             <span className="text-sm">Contacto Whatsapp Jose Luis Orozco: +52 55 5217 3484</span>
           </div>
-          <Button className="bg-[#FF5733] hover:bg-[#E64A19] text-white">
-            Más Información
+          <Button 
+            className="bg-[#FF5733] hover:bg-[#E64A19] text-white"
+            onClick={() => window.open("https://wa.me/525552173484", "_blank")}
+          >
+            Mensaje a whatsapp a Jose Luis Orozco
           </Button>
         </div>
       </div>
     </header>;
 };
+
 export default Header;
