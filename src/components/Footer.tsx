@@ -1,10 +1,7 @@
-
 import React from "react";
 import { Facebook, Instagram, Youtube, Mail, Phone } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-gray-900 text-white py-12">
+  return <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -34,7 +31,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 mr-2" />
-                <span>+52 55 1234 5678</span>
+                <span>+52 55 52173484</span>
               </div>
             </div>
           </div>
@@ -70,8 +67,6 @@ const Footer = () => {
           <p>&copy; 2025 Electrónica y Servicio. Todos los derechos reservados.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
