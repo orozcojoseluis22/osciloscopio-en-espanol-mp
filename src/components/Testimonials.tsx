@@ -1,11 +1,8 @@
-
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Quote } from "lucide-react";
-
 const Testimonials = () => {
-  return (
-    <div className="py-16 bg-white">
+  return <div className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12 text-blue-800">
           Lo que opinan nuestros estudiantes
@@ -17,15 +14,9 @@ const Testimonials = () => {
               <div className="mb-4">
                 <Quote className="h-8 w-8 text-blue-500 opacity-50" />
               </div>
-              <p className="mb-4 italic">
-                "Buenos días ingeniero. Muchísimas gracias a usted y a su bonito equipo por no sólo compartir el conocimiento sino por preocuparse por el aprendizaje de los estudiantes. Estoy en otras clases pero nada que ver con la empatía de ustedes. Mil gracias por este bonito curso que terminamos. Que Jehová los bendiga en abundancia. Sólo me falta esperar con emoción mi diploma 😘"
-              </p>
+              <p className="mb-4 italic">"Buenos días ingeniero. Muchísimas gracias a usted y a su bonito equipo por no sólo compartir el conocimiento sino por preocuparse por el aprendizaje de los estudiantes. Estoy en otras clases pero nada que ver con la empatía de ustedes. Mil gracias por este bonito curso que terminamos. Que Jehová los bendiga en abundancia. Sólo me falta esperar con emoción mi diploma "</p>
               <div className="flex items-center">
-                <img
-                  src="/public/lovable-uploads/d8377329-af1a-44ca-b35d-0e5b8a663036.png"
-                  alt="Testimonio de estudiante con mensaje"
-                  className="h-auto w-48 object-contain mr-4"
-                />
+                <img src="/public/lovable-uploads/d8377329-af1a-44ca-b35d-0e5b8a663036.png" alt="Testimonio de estudiante con mensaje" className="h-auto w-48 object-contain mr-4" />
                 <div>
                   <h4 className="font-semibold">Juan Carlos</h4>
                   <p className="text-sm text-gray-600">Estudiante del curso</p>
@@ -43,11 +34,7 @@ const Testimonials = () => {
                 "Tú la verdad la pase genial... ya comenzaron la edición. Sólo me falta esperar con emoción mi diploma 😘"
               </p>
               <div className="flex items-center">
-                <img
-                  src="/public/lovable-uploads/dbbf7e2f-11bf-439a-99d7-da9cb4899377.png"
-                  alt="Testimonio de estudiante"
-                  className="h-14 w-14 object-cover rounded-full mr-4"
-                />
+                <img src="/public/lovable-uploads/dbbf7e2f-11bf-439a-99d7-da9cb4899377.png" alt="Testimonio de estudiante" className="h-14 w-14 object-cover rounded-full mr-4" />
                 <div>
                   <h4 className="font-semibold">José</h4>
                   <p className="text-sm text-gray-600">Estudiante del curso</p>
@@ -65,11 +52,7 @@ const Testimonials = () => {
                 "X2. Va ver reconocimiento o diploma? Gracias profesor."
               </p>
               <div className="flex items-center">
-                <img
-                  src="/public/lovable-uploads/5b7959e6-9a60-401a-b57b-01c8be47b07f.png"
-                  alt="Testimonio de estudiante"
-                  className="h-14 w-14 object-cover rounded-full mr-4"
-                />
+                <img src="/public/lovable-uploads/5b7959e6-9a60-401a-b57b-01c8be47b07f.png" alt="Testimonio de estudiante" className="h-14 w-14 object-cover rounded-full mr-4" />
                 <div>
                   <h4 className="font-semibold">Estudiante satisfecho</h4>
                   <p className="text-sm text-gray-600">Graduado del curso</p>
@@ -79,8 +62,6 @@ const Testimonials = () => {
           </Card>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Testimonials;
