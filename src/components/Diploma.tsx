@@ -1,11 +1,8 @@
-
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Award, CheckSquare } from "lucide-react";
-
 const Diploma = () => {
-  return (
-    <div className="py-16 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+  return <div className="py-16 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0">
@@ -20,11 +17,11 @@ const Diploma = () => {
             <div className="space-y-4">
               <div className="flex items-start">
                 <CheckSquare className="h-6 w-6 text-amber-300 mr-2 mt-1 flex-shrink-0" />
-                <p>Diploma con validez curricular</p>
+                <p>Diploma del curso "MANEJO Y APLICACIÓN DEL OSCILOSCOPIO AUTOMOTRIZ" </p>
               </div>
               <div className="flex items-start">
                 <CheckSquare className="h-6 w-6 text-amber-300 mr-2 mt-1 flex-shrink-0" />
-                <p>Firmado por expertos del sector</p>
+                <p>Firmado por experto del sector</p>
               </div>
               <div className="flex items-start">
                 <CheckSquare className="h-6 w-6 text-amber-300 mr-2 mt-1 flex-shrink-0" />
@@ -32,7 +29,7 @@ const Diploma = () => {
               </div>
               <div className="flex items-start">
                 <CheckSquare className="h-6 w-6 text-amber-300 mr-2 mt-1 flex-shrink-0" />
-                <p>Envío a tu correo electrónico</p>
+                <p>Envío a tu correo electrónico con opción a enviarlo físicamente si se cubren los costos de envío</p>
               </div>
             </div>
           </div>
@@ -55,8 +52,6 @@ const Diploma = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Diploma;
