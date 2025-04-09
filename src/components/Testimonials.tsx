@@ -30,13 +30,11 @@ const Testimonials = () => {
               <div className="mb-4">
                 <Quote className="h-8 w-8 text-blue-500 opacity-50" />
               </div>
-              <p className="mb-4 italic">
-                "Tú la verdad la pase genial... ya comenzaron la edición. Sólo me falta esperar con emoción mi diploma 😘"
-              </p>
+              <p className="mb-4 italic">"Como en todo trabajo diariamente se aprenden muchas cosas hay mucho que aprender mucho que estudiar si uno tiene el deseo y el empeño lo que aprendes lo pones en práctica allí se ve el progreso y la satisfacción personal. Gracias profesor por compartir su conocimiento."</p>
               <div className="flex items-center">
                 <img src="/public/lovable-uploads/dbbf7e2f-11bf-439a-99d7-da9cb4899377.png" alt="Testimonio de estudiante" className="h-14 w-14 object-cover rounded-full mr-4" />
                 <div>
-                  <h4 className="font-semibold">José</h4>
+                  <h4 className="font-semibold">Víctor</h4>
                   <p className="text-sm text-gray-600">Estudiante del curso</p>
                 </div>
               </div>
