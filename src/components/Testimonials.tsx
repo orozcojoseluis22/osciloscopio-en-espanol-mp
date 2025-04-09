@@ -43,23 +43,7 @@ const Testimonials = () => {
             </CardContent>
           </Card>
 
-          <Card className="border-l-4 border-blue-500 shadow-lg">
-            <CardContent className="pt-6">
-              <div className="mb-4">
-                <Quote className="h-8 w-8 text-blue-500 opacity-50" />
-              </div>
-              <p className="mb-4 italic">
-                "X2. Va ver reconocimiento o diploma? Gracias profesor."
-              </p>
-              <div className="flex items-center">
-                <img src="/public/lovable-uploads/5b7959e6-9a60-401a-b57b-01c8be47b07f.png" alt="Testimonio de estudiante" className="h-14 w-14 object-cover rounded-full mr-4" />
-                <div>
-                  <h4 className="font-semibold">Estudiante satisfecho</h4>
-                  <p className="text-sm text-gray-600">Graduado del curso</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+          
         </div>
       </div>
     </div>;
