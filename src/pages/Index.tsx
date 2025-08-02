@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import CourseDetails from "@/components/CourseDetails";
@@ -18,6 +19,11 @@ const Index = () => {
       <Testimonials />
       <Diploma />
       <Footer />
+      <div className="text-center py-8">
+        <Link to="/simulator" className="text-blue-600 underline">
+          Ir al simulador 3D
+        </Link>
+      </div>
     </div>
   );
 };
